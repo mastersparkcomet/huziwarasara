@@ -1,0 +1,27 @@
+header {
+    background-image: url(../images/header.jpeg);
+    background-size: contain;
+    width: 100vw;
+    height: 128vh;
+    /* この指定方法だとheightが余計な高さになり、次のmain要素まで謎の空白ができるという問題があるのでheightを適切な高さにできるようにjavascriptで計算+代入を行います。 */
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.news-images {
+    width: 100vw;
+    background-size: cover;
+    height: 180vh;
+
+}
+
+.news-text {
+    font-size: 20px;
+}
